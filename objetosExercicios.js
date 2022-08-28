@@ -1,4 +1,4 @@
-class Pessoa {
+/* class Pessoa {
     nome;
     idade;
     anoDeNascimento
@@ -27,7 +27,7 @@ let josepio = new Pessoa ('Josepio', 34)
 let zezin = new Pessoa ('Zezin', 31)
 
 compararPessoas(josepio, zezin) 
-
+ */
 /* 
 1) Crie uma classe para representar carros. 
 Os carros possuem uma marca, uma cor e um gasto médio de combustível por Kilômetro rodado.
@@ -97,8 +97,9 @@ class PessoasCadastradas {
     }
 }
 
-const jose = new PessoasCadastradas('jose', 190, 1.70)
-console.log(jose)
+const dev = {
+    nome: 'Renan',
+    linguagemPreferida: 'JavaScript'
+};
 
-let IMCdoJose = jose.calcularIMC()
-console.log(IMCdoJose)
+console.log(dev.linguagemPreferida);
